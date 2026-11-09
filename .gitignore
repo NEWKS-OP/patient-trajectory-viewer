@@ -1,0 +1,15 @@
+# Raw Synthea export (~200 MB): regenerate with scripts/generate_data.sh
+data/raw/
+scripts/synthea.jar
+scripts/output/
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo
+web/tsconfig.*.tsbuildinfo
+.DS_Store
